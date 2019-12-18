@@ -13,3 +13,11 @@ for i in data:
 
 print(length / len(data))
 print(data[12058])
+
+
+new = []
+for d in data:
+	if len(d) < 100:
+		new.append(d)
+print('留言長度小於100的有',len(new),'筆')
+print(new[50])
